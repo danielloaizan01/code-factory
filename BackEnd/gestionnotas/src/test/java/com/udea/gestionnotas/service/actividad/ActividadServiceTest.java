@@ -17,7 +17,7 @@ class ActividadServiceTest {
     @BeforeEach
     void setUp() {
 
-        actividadesResponse = Arrays.asList(new )
+        actividadesResponse = Arrays.asList(new);
 
     }
 
