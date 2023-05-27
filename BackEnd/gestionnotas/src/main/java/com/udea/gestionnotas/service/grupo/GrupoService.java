@@ -1,4 +1,4 @@
-package com.udea.gestionnotas.service;
+package com.udea.gestionnotas.service.grupo;
 
 import com.udea.gestionnotas.dao.GrupoDao;
 import com.udea.gestionnotas.model.dto.Grupo;
@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class GrupoService implements IGrupoService{
+public class GrupoService implements IGrupoService {
 
   @Autowired
   private GrupoDao grupoDao;

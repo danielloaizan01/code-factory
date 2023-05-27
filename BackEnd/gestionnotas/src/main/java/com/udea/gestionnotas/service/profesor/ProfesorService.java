@@ -1,13 +1,14 @@
-package com.udea.gestionnotas.service;
+package com.udea.gestionnotas.service.profesor;
 
 import com.udea.gestionnotas.dao.ProfesorDao;
 import com.udea.gestionnotas.model.dto.Profesor;
 import com.udea.gestionnotas.model.mapeo.ProfesorMapper;
+import com.udea.gestionnotas.service.profesor.IProfesorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ProfesorService implements IProfesorService{
+public class ProfesorService implements IProfesorService {
 
   @Autowired
   private ProfesorDao profesorDao;

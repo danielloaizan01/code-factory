@@ -1,4 +1,4 @@
-package com.udea.gestionnotas.service;
+package com.udea.gestionnotas.service.estudiante;
 
 import com.udea.gestionnotas.model.dto.Estudiante;
 

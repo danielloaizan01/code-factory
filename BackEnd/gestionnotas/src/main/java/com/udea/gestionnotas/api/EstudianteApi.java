@@ -1,9 +1,8 @@
 package com.udea.gestionnotas.api;
 
-import com.udea.gestionnotas.model.dto.Curso;
 import com.udea.gestionnotas.model.dto.Estudiante;
 
-import com.udea.gestionnotas.service.IEstudianteService;
+import com.udea.gestionnotas.service.estudiante.IEstudianteService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -17,8 +16,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/api/V1/Estudiante")

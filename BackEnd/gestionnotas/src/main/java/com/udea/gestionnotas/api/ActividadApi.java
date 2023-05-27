@@ -1,7 +1,7 @@
 package com.udea.gestionnotas.api;
 
 import com.udea.gestionnotas.model.dto.Actividad;
-import com.udea.gestionnotas.service.IActividadService;
+import com.udea.gestionnotas.service.actividad.IActividadService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

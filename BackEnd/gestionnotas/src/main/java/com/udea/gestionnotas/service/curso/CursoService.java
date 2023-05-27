@@ -1,4 +1,4 @@
-package com.udea.gestionnotas.service;
+package com.udea.gestionnotas.service.curso;
 
 import com.udea.gestionnotas.dao.CursoDao;
 import com.udea.gestionnotas.dao.GrupoDao;

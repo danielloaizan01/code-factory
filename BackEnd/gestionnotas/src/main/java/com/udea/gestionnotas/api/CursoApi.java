@@ -2,8 +2,8 @@ package com.udea.gestionnotas.api;
 
 import java.util.List;
 import com.udea.gestionnotas.model.dto.Curso;
-import com.udea.gestionnotas.service.ICursoService;
-import com.udea.gestionnotas.service.IProfesorService;
+import com.udea.gestionnotas.service.curso.ICursoService;
+import com.udea.gestionnotas.service.profesor.IProfesorService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;

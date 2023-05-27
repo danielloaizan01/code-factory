@@ -1,4 +1,4 @@
-package com.udea.gestionnotas.service;
+package com.udea.gestionnotas.service.estudiantesgrupos;
 
 
 import com.udea.gestionnotas.dao.GrupoDao;
@@ -13,7 +13,7 @@ import java.util.List;
 
 
 @Service
-public class EstudiantesGruposService implements IEstudiantesGrupoService{
+public class EstudiantesGruposService implements IEstudiantesGrupoService {
 
     @Autowired
     private EstudiantesGrupoDao estudiantesGrupoDao;

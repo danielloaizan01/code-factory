@@ -1,7 +1,7 @@
 package com.udea.gestionnotas.api;
 
 import com.udea.gestionnotas.model.dto.Grupo;
-import com.udea.gestionnotas.service.IGrupoService;
+import com.udea.gestionnotas.service.grupo.IGrupoService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
