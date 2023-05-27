@@ -17,11 +17,10 @@ class ActividadServiceTest {
     @BeforeEach
     void setUp() {
 
-        actividadesResponse = Arrays.asList(new);
-        new Actividad(/* Argumentos para el primer objeto Actividad */);
-        new Actividad(/* Argumentos para el segundo objeto Actividad */);
-
-    }
+        actividadesResponse = Arrays.asList(
+                new Actividad(),
+                new Actividad()
+        );
 
     @Test
     void getActividad() {
