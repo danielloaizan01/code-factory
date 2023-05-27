@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class ActividadServiceTest {
 
     List<Actividad> actividadesResponse;
-
+//este codigo se cambio por probar
     @BeforeEach
     void setUp() {
         actividadesResponse = Arrays.asList(
