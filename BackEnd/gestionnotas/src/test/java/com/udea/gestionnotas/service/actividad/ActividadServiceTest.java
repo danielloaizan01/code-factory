@@ -18,7 +18,9 @@ class ActividadServiceTest {
     void setUp() {
 
         actividadesResponse = Arrays.asList(new);
-
+        new Actividad(/* Argumentos para el primer objeto Actividad */),
+        new Actividad(/* Argumentos para el segundo objeto Actividad */)
+        );
     }
 
     @Test
