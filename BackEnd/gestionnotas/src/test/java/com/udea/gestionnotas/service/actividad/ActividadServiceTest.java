@@ -11,22 +11,23 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ActividadServiceTest {
 
-
     List<Actividad> actividadesResponse;
 
     @BeforeEach
     void setUp() {
-
         actividadesResponse = Arrays.asList(
                 new Actividad(),
                 new Actividad()
         );
+    }
 
     @Test
     void getActividad() {
+        // Lógica de prueba para el método getActividad()
     }
 
     @Test
     void saveActividades() {
+        // Lógica de prueba para el método saveActividades()
     }
 }
